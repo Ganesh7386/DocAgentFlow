@@ -10,3 +10,55 @@
 2025-03-06 10:45:23,107 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-03-06 10:45:32,784 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-03-06 10:45:51,049 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 23:36:11,339 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 23:36:33,503 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-06 23:36:40,310 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:11:16,778 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:12:35,836 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:13:06,433 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:18:03,792 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:18:29,987 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:19:39,482 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:34:47,034 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:36:24,369 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:37:09,685 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:43:12,623 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:43:32,451 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-07 00:44:25,913 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-08 12:01:23,479 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-11 22:52:45,522 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-11 22:53:30,479 - ERROR - Failed to run a request listener: 'SocketModeClient' object has no attribute 'ack'
+Traceback (most recent call last):
+  File "c:\Users\Ganesh\OneDrive\Desktop\LangChain\myenv\Lib\site-packages\slack_sdk\socket_mode\client.py", line 143, in run_message_listeners
+    listener(self, request)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Temp\ipykernel_19644\2408620722.py", line 38, in on_event_request
+    client.ack(req)  # Acknowledge event
+    ^^^^^^^^^^
+AttributeError: 'SocketModeClient' object has no attribute 'ack'
+2025-03-11 22:54:13,170 - ERROR - Failed to run a request listener: 'SocketModeClient' object has no attribute 'ack'
+Traceback (most recent call last):
+  File "c:\Users\Ganesh\OneDrive\Desktop\LangChain\myenv\Lib\site-packages\slack_sdk\socket_mode\client.py", line 143, in run_message_listeners
+    listener(self, request)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Temp\ipykernel_19644\2408620722.py", line 38, in on_event_request
+    client.ack(req)  # Acknowledge event
+    ^^^^^^^^^^
+AttributeError: 'SocketModeClient' object has no attribute 'ack'
+2025-03-11 22:55:41,737 - ERROR - Failed to run a request listener: 'SocketModeClient' object has no attribute 'ack'
+Traceback (most recent call last):
+  File "c:\Users\Ganesh\OneDrive\Desktop\LangChain\myenv\Lib\site-packages\slack_sdk\socket_mode\client.py", line 143, in run_message_listeners
+    listener(self, request)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Temp\ipykernel_19644\2408620722.py", line 38, in on_event_request
+    client.ack(req)  # Acknowledge event
+    ^^^^^^^^^^
+AttributeError: 'SocketModeClient' object has no attribute 'ack'
+2025-03-11 23:54:49,484 - INFO - The connection has been closed (session id: 81aa7f1f-926c-4cad-ad3f-729cfc1d1ce1)
+2025-03-11 23:54:49,486 - INFO - The session seems to be already closed. Reconnecting... (session id: 81aa7f1f-926c-4cad-ad3f-729cfc1d1ce1)
+2025-03-11 23:54:49,525 - INFO - Connecting to a new endpoint...
+2025-03-11 23:54:50,537 - INFO - The connection has been closed (session id: 81aa7f1f-926c-4cad-ad3f-729cfc1d1ce1)
+2025-03-11 23:54:50,540 - INFO - A new session has been established (session id: c03e5d9a-45a0-4eb6-9679-4acca261ff0a)
+2025-03-11 23:54:50,542 - INFO - Connected to a new endpoint...
+2025-03-11 23:54:50,717 - INFO - Stopped receiving messages from a connection (session id: 81aa7f1f-926c-4cad-ad3f-729cfc1d1ce1)
+2025-03-11 23:54:50,824 - INFO - Starting to receive messages from a new connection (session id: c03e5d9a-45a0-4eb6-9679-4acca261ff0a)
